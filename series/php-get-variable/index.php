@@ -1,6 +1,6 @@
          <?php
 
-      // 1. .
+      // 1. It checks if the form has been submitted.
 
       if ( isset($_GET['day']) && isset($_GET['date']) && isset($_GET['year']) ) {
 
