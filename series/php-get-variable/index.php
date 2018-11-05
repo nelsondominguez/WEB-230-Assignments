@@ -1,6 +1,6 @@
          <?php
 
-      // 1. Depending if the password matches it will show incorrect, correct, or if it is empty it will ask for password.
+      // 1. .
 
       if ( isset($_GET['day']) && isset($_GET['date']) && isset($_GET['year']) ) {
 
