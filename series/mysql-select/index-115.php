@@ -4,7 +4,7 @@
 
     $query = "SELECT food, calories FROM food ORDER BY 'id'";
 
-    if($query_run = mysqli_query($query)){
+    if($query_run = mysqli_query($con, $query)){
 
       echo 'Query succeded.';
 
